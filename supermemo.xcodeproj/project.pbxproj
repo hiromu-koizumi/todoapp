@@ -12,6 +12,8 @@
 		9FC04AA3217F55E9004B919A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC04AA1217F55E9004B919A /* Main.storyboard */; };
 		9FC04AA5217F55EA004B919A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC04AA4217F55EA004B919A /* Assets.xcassets */; };
 		9FC04AA8217F55EA004B919A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC04AA6217F55EA004B919A /* LaunchScreen.storyboard */; };
+		9FC04AB0217F5B98004B919A /* addController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC04AAF217F5B98004B919A /* addController.swift */; };
+		9FC04AB2217F5C63004B919A /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC04AB1217F5C63004B919A /* add.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9FC04AA4217F55EA004B919A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC04AA7217F55EA004B919A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC04AA9217F55EA004B919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC04AAF217F5B98004B919A /* addController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addController.swift; sourceTree = "<group>"; };
+		9FC04AB1217F5C63004B919A /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9FC04AA4217F55EA004B919A /* Assets.xcassets */,
 				9FC04AA6217F55EA004B919A /* LaunchScreen.storyboard */,
 				9FC04AA9217F55EA004B919A /* Info.plist */,
+				9FC04AAF217F5B98004B919A /* addController.swift */,
+				9FC04AB1217F5C63004B919A /* add.swift */,
 			);
 			path = supermemo;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC04AA0217F55E9004B919A /* ViewController.swift in Sources */,
+				9FC04AB2217F5C63004B919A /* add.swift in Sources */,
+				9FC04AB0217F5B98004B919A /* addController.swift in Sources */,
 				9FC04A9E217F55E9004B919A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
